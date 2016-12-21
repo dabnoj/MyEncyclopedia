@@ -2167,148 +2167,169 @@ namespace MyEncyclopedia
 			public const int ic_action_menu = 2130837628;
 			
 			// aapt resource value: 0x7f02007d
-			public const int ic_navbar_search = 2130837629;
+			public const int ic_gallery = 2130837629;
 			
 			// aapt resource value: 0x7f02007e
-			public const int Icon = 2130837630;
+			public const int ic_image_search = 2130837630;
 			
 			// aapt resource value: 0x7f02007f
-			public const int leisure_event = 2130837631;
+			public const int ic_images = 2130837631;
 			
 			// aapt resource value: 0x7f020080
-			public const int leisure_food = 2130837632;
+			public const int ic_info = 2130837632;
 			
 			// aapt resource value: 0x7f020081
-			public const int leisure_game = 2130837633;
+			public const int ic_map = 2130837633;
 			
 			// aapt resource value: 0x7f020082
-			public const int leisure_sport = 2130837634;
+			public const int ic_mapsearch = 2130837634;
 			
 			// aapt resource value: 0x7f020083
-			public const int leisure_sportleague = 2130837635;
+			public const int ic_navbar_search = 2130837635;
 			
 			// aapt resource value: 0x7f020084
-			public const int leisure_sportteam = 2130837636;
+			public const int ic_youtube = 2130837636;
 			
 			// aapt resource value: 0x7f020085
-			public const int leisure_videogame = 2130837637;
+			public const int Icon = 2130837637;
 			
 			// aapt resource value: 0x7f020086
-			public const int music_musicalwork = 2130837638;
+			public const int leisure_event = 2130837638;
 			
 			// aapt resource value: 0x7f020087
-			public const int music_musicartist = 2130837639;
+			public const int leisure_food = 2130837639;
 			
 			// aapt resource value: 0x7f020088
-			public const int nature_animal = 2130837640;
+			public const int leisure_game = 2130837640;
 			
 			// aapt resource value: 0x7f020089
-			public const int nature_mushroom = 2130837641;
+			public const int leisure_sport = 2130837641;
 			
 			// aapt resource value: 0x7f02008a
-			public const int nature_plant = 2130837642;
+			public const int leisure_sportleague = 2130837642;
 			
 			// aapt resource value: 0x7f02008b
-			public const int navigation_empty_icon = 2130837643;
+			public const int leisure_sportteam = 2130837643;
 			
 			// aapt resource value: 0x7f02008c
-			public const int notification_action_background = 2130837644;
+			public const int leisure_videogame = 2130837644;
 			
 			// aapt resource value: 0x7f02008d
-			public const int notification_bg = 2130837645;
+			public const int music_musicalwork = 2130837645;
 			
 			// aapt resource value: 0x7f02008e
-			public const int notification_bg_low = 2130837646;
+			public const int music_musicartist = 2130837646;
 			
 			// aapt resource value: 0x7f02008f
-			public const int notification_bg_low_normal = 2130837647;
+			public const int nature_animal = 2130837647;
 			
 			// aapt resource value: 0x7f020090
-			public const int notification_bg_low_pressed = 2130837648;
+			public const int nature_mushroom = 2130837648;
 			
 			// aapt resource value: 0x7f020091
-			public const int notification_bg_normal = 2130837649;
+			public const int nature_plant = 2130837649;
 			
 			// aapt resource value: 0x7f020092
-			public const int notification_bg_normal_pressed = 2130837650;
+			public const int navigation_empty_icon = 2130837650;
 			
 			// aapt resource value: 0x7f020093
-			public const int notification_icon_background = 2130837651;
-			
-			// aapt resource value: 0x7f0200ab
-			public const int notification_template_icon_bg = 2130837675;
-			
-			// aapt resource value: 0x7f0200ac
-			public const int notification_template_icon_low_bg = 2130837676;
+			public const int notification_action_background = 2130837651;
 			
 			// aapt resource value: 0x7f020094
-			public const int notification_tile_bg = 2130837652;
+			public const int notification_bg = 2130837652;
 			
 			// aapt resource value: 0x7f020095
-			public const int notify_panel_notification_icon_bg = 2130837653;
+			public const int notification_bg_low = 2130837653;
 			
 			// aapt resource value: 0x7f020096
-			public const int people_athlete = 2130837654;
+			public const int notification_bg_low_normal = 2130837654;
 			
 			// aapt resource value: 0x7f020097
-			public const int people_person = 2130837655;
+			public const int notification_bg_low_pressed = 2130837655;
 			
 			// aapt resource value: 0x7f020098
-			public const int people_politician = 2130837656;
+			public const int notification_bg_normal = 2130837656;
 			
 			// aapt resource value: 0x7f020099
-			public const int science_anatomy = 2130837657;
+			public const int notification_bg_normal_pressed = 2130837657;
 			
 			// aapt resource value: 0x7f02009a
-			public const int science_astronaut = 2130837658;
+			public const int notification_icon_background = 2130837658;
+			
+			// aapt resource value: 0x7f0200b2
+			public const int notification_template_icon_bg = 2130837682;
+			
+			// aapt resource value: 0x7f0200b3
+			public const int notification_template_icon_low_bg = 2130837683;
 			
 			// aapt resource value: 0x7f02009b
-			public const int science_biomolecule = 2130837659;
+			public const int notification_tile_bg = 2130837659;
 			
 			// aapt resource value: 0x7f02009c
-			public const int science_chemical = 2130837660;
+			public const int notify_panel_notification_icon_bg = 2130837660;
 			
 			// aapt resource value: 0x7f02009d
-			public const int science_disease = 2130837661;
+			public const int people_athlete = 2130837661;
 			
 			// aapt resource value: 0x7f02009e
-			public const int science_hemp = 2130837662;
+			public const int people_person = 2130837662;
 			
 			// aapt resource value: 0x7f02009f
-			public const int science_institution = 2130837663;
+			public const int people_politician = 2130837663;
 			
 			// aapt resource value: 0x7f0200a0
-			public const int science_medicine = 2130837664;
+			public const int science_anatomy = 2130837664;
 			
 			// aapt resource value: 0x7f0200a1
-			public const int science_scientist = 2130837665;
+			public const int science_astronaut = 2130837665;
 			
 			// aapt resource value: 0x7f0200a2
-			public const int search = 2130837666;
+			public const int science_biomolecule = 2130837666;
 			
 			// aapt resource value: 0x7f0200a3
-			public const int techno_aircraft = 2130837667;
+			public const int science_chemical = 2130837667;
 			
 			// aapt resource value: 0x7f0200a4
-			public const int techno_automobile = 2130837668;
+			public const int science_disease = 2130837668;
 			
 			// aapt resource value: 0x7f0200a5
-			public const int techno_device = 2130837669;
+			public const int science_hemp = 2130837669;
 			
 			// aapt resource value: 0x7f0200a6
-			public const int techno_meantransportation = 2130837670;
+			public const int science_institution = 2130837670;
 			
 			// aapt resource value: 0x7f0200a7
-			public const int techno_motorcycle = 2130837671;
+			public const int science_medicine = 2130837671;
 			
 			// aapt resource value: 0x7f0200a8
-			public const int techno_ship = 2130837672;
+			public const int science_scientist = 2130837672;
 			
 			// aapt resource value: 0x7f0200a9
-			public const int techno_train = 2130837673;
+			public const int search = 2130837673;
 			
 			// aapt resource value: 0x7f0200aa
-			public const int thumb_background = 2130837674;
+			public const int techno_aircraft = 2130837674;
+			
+			// aapt resource value: 0x7f0200ab
+			public const int techno_automobile = 2130837675;
+			
+			// aapt resource value: 0x7f0200ac
+			public const int techno_device = 2130837676;
+			
+			// aapt resource value: 0x7f0200ad
+			public const int techno_meantransportation = 2130837677;
+			
+			// aapt resource value: 0x7f0200ae
+			public const int techno_motorcycle = 2130837678;
+			
+			// aapt resource value: 0x7f0200af
+			public const int techno_ship = 2130837679;
+			
+			// aapt resource value: 0x7f0200b0
+			public const int techno_train = 2130837680;
+			
+			// aapt resource value: 0x7f0200b1
+			public const int thumb_background = 2130837681;
 			
 			static Drawable()
 			{

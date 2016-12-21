@@ -1,3 +1,4 @@
+using Android.App;
 using System.Collections.Generic;
 
 namespace MyEncyclopedia.Fragments.Objects
@@ -11,6 +12,8 @@ namespace MyEncyclopedia.Fragments.Objects
         public string Name { get; set; }
 
         public string Color { get; set; }
+
+        public Fragment fragment { get; set; }
 
         public List<Category> subCategories { get; set; }
     }

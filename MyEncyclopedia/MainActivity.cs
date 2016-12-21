@@ -20,7 +20,7 @@ namespace MyEncyclopedia
     {
 
         Android.Support.V7.Widget.Toolbar toolbar;
-        DrawerLayout drawer;
+       public DrawerLayout Drawer { get; set; }
         NavigationView navigationView;
        public  RecyclerView RecyclerNav { get; set; }
         public List<Category> navList;
@@ -37,9 +37,9 @@ namespace MyEncyclopedia
 
             navigationView = FindViewById<NavigationView>(Resource.Id.nav_view);
             toolbar = FindViewById<Android.Support.V7.Widget.Toolbar>(Resource.Id.toolbar);
-            drawer = FindViewById<DrawerLayout>(Resource.Id.drawer_layout);
+            Drawer = FindViewById<DrawerLayout>(Resource.Id.drawer_layout);
             RecyclerNav = FindViewById<RecyclerView>(Resource.Id.recyclerNav);
-            RecyclerNav.SetAdapter(new NavBarAdapter(SetNavList()));
+            RecyclerNav.SetAdapter(new NavBarAdapter(SetNavList(),this));
             RecyclerNav.SetLayoutManager(new LinearLayoutManager(this,LinearLayoutManager.Vertical,false));
 
             navigationView.NavigationItemSelected += NavigationView_NavigationItemSelected;
@@ -76,7 +76,7 @@ namespace MyEncyclopedia
                 SwitchFragment (e.MenuItem.ItemId);
             }
             */
-            drawer.CloseDrawers();
+            Drawer.CloseDrawers();
         }
 
         //Event Selected on nav menu
@@ -85,7 +85,7 @@ namespace MyEncyclopedia
             switch (item.ItemId)
             {
                 case Android.Resource.Id.Home:
-                    drawer.OpenDrawer(Android.Support.V4.View.GravityCompat.End);
+                    Drawer.OpenDrawer(Android.Support.V4.View.GravityCompat.End);
                     return true;
 
             }
@@ -107,33 +107,42 @@ namespace MyEncyclopedia
                 Color = "#607D8B",
                 Icon = Resource.Drawable.ic_navbar_search,
                 Name = "Search",//TODO: change for multilang support
+                fragment = FragmentHome.Get()
              
             };navList.Add(Search);
 
-            Category Foo = new Category
+            Category MapSearch = new Category
             {
-                Color = "#607D8B",
-                Icon = Resource.Drawable.header_architecture,
-                Name = "Search",//TODO: change for multilang support
+                Color = "#9C27B0",
+                Icon = Resource.Drawable.ic_map,
+                Name = "MapSearch",//TODO: change for multilang support
 
-            }; navList.Add(Foo);
+            }; navList.Add(MapSearch);
 
 
-            Category Foo2 = new Category
+            Category ImageSearch = new Category
             {
-                Color = "#607D8B",
-                Icon = Resource.Drawable.header_architecture,
-                Name = "Search",//TODO: change for multilang support
+                Color = "#2196F3",
+                Icon = Resource.Drawable.ic_images,
+                Name = "Images",//TODO: change for multilang support
 
-            }; navList.Add(Foo2);
+            }; navList.Add(ImageSearch);
 
-            Category Foo3 = new Category
+            Category Videos = new Category
             {
-                Color = "#607D8B",
-                Icon = Resource.Drawable.header_architecture,
-                Name = "Search",//TODO: change for multilang support
+                Color = "#9E9E9E",
+                Icon = Resource.Drawable.ic_youtube,
+                Name = "Videos",//TODO: change for multilang support
 
-            }; navList.Add(Foo3);
+            }; navList.Add(Videos);
+
+            Category Infos = new Category
+            {
+                Color = "#FF9800",
+                Icon = Resource.Drawable.ic_info,
+                Name = "Infos",//TODO: change for multilang support
+
+            }; navList.Add(Infos);
 
             return navList;
         }

@@ -8,6 +8,8 @@ using System.Collections.Generic;
 using Android.Support.V4.Content;
 using Android.Graphics;
 using Android.Graphics.Drawables;
+using Android.App;
+using Android.Content;
 
 namespace MyEncyclopedia.Fragments.Adapters
 {
@@ -16,12 +18,13 @@ namespace MyEncyclopedia.Fragments.Adapters
         public event EventHandler<NavBarAdapterClickEventArgs> ItemClick;
         public event EventHandler<NavBarAdapterClickEventArgs> ItemLongClick;
         View itemView = null;
-
+        MainActivity c;
         List<Category> items;
 
-        public NavBarAdapter(List<Category> data)
+        public NavBarAdapter(List<Category> data,MainActivity c)
         {
             items = data;
+            this.c = c;
         }
 
         // Create new views (invoked by the layout manager)
@@ -52,7 +55,16 @@ namespace MyEncyclopedia.Fragments.Adapters
 
         public override int ItemCount => items.Count;
 
-        void OnClick(NavBarAdapterClickEventArgs args) => ItemClick?.Invoke(this, args);
+        void OnClick(NavBarAdapterClickEventArgs args)
+        {
+            if(items[args.Position].fragment != null)
+            {
+                FragmentTransaction transaction = c.FragmentManager.BeginTransaction();
+                transaction.Replace(Resource.Id.fragmentContainer, FragmentHome.Get());
+                transaction.Commit();
+                c.Drawer.CloseDrawers();
+            }
+        }
         void OnLongClick(NavBarAdapterClickEventArgs args) => ItemLongClick?.Invoke(this, args);
 
     }

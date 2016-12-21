@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using Android.App;
 using Android.OS;
 using Android.Views;
-using Android.Widget;
 using Android.Support.V7.Widget;
 using MyEncyclopedia.Fragments.Objects;
 using MyEncyclopedia.Fragments.Adapters;
