@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <group android:checkableBehavior="single">
+    <item
+        android:id="@+id/nav_score_layout"
+        android:icon="?android:searchIcon"
+        android:title="Pussy" />
+    <item
+        android:id="@+id/nav_contact_layout"
+        android:icon="?android:searchIcon"
+        android:title="Ion" />
+    <item
+        android:id="@+id/nav_about_layout"
+        android:icon="?android:searchIcon"
+        android:title="cok" />
+    <item
+        android:id="@+id/nav_logout"
+        android:icon="@drawable/geo_language"
+        android:title="fat"
+            />
+    <item
+        android:id="@+id/nav_login"
+        android:icon="?android:searchIcon"
+        android:title="chatte"
+            />
+    <item
+        android:id="@+id/nav_feedback"
+        android:icon="?android:searchIcon"
+        android:title="poil"
+            />
+
+  </group>
+</menu>
